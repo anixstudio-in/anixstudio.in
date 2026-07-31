@@ -111,3 +111,66 @@ text-align:center;
 background:#111;
 margin-top:50px;
 }
+/* Anime Page */
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero h1{
+    font-size:40px;
+    color:#ff3b3b;
+}
+
+.hero p{
+    color:#ccc;
+    margin-top:10px;
+}
+
+.anime-grid{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    padding:40px;
+}
+
+.anime-card{
+    background:#1b1b1b;
+    border-radius:15px;
+    overflow:hidden;
+    width:250px;
+    text-align:center;
+    transition:.3s;
+    box-shadow:0 0 10px rgba(255,0,0,.2);
+}
+
+.anime-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px red;
+}
+
+.anime-card img{
+    width:100%;
+    display:block;
+}
+
+.anime-card h3{
+    color:white;
+    margin:15px 0;
+}
+
+.anime-card a{
+    display:inline-block;
+    margin-bottom:20px;
+    padding:10px 20px;
+    background:red;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.anime-card a:hover{
+    background:#ff3333;
+  }
